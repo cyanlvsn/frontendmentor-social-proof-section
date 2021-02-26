@@ -1,0 +1,39 @@
+.testimonials {
+	background-color: $color-primary-very-dark-magenta;
+	border-radius: 1rem;
+	padding: 4rem 3.3rem;
+
+	&__top {
+		display: flex;
+		align-items: center;
+		margin-bottom: 3rem;
+		&__name {
+			color: $color-neutral-dark-grayish-magenta;
+			opacity: 0.85;
+			font-weight: $fw-medium;
+		}
+		&__verified {
+			color: $color-primary-soft-pink;
+			opacity: 0.5;
+			font-weight: $fw-medium;
+		}
+		&__text {
+			display: flex;
+			flex-direction: column;
+		}
+		&__img {
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+			margin-right: 2.5rem;
+		}
+	}
+
+	&__text {
+		color: $color-neutral-dark-grayish-magenta;
+		opacity: 0.8;
+		font-weight: $fw-regular;
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+}

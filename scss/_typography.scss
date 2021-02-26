@@ -1,0 +1,26 @@
+.intro {
+	&__heading {
+		width: 10ch;
+		line-height: 1;
+
+		font-weight: $fw-bold;
+		font-size: $fs-heading;
+		color: $color-primary-very-dark-magenta;
+		@media (max-width: 750px) {
+			text-align: center;
+			width: unset;
+		}
+	}
+
+	&__text {
+		width: 37ch;
+
+		font-weight: $fw-medium;
+		color: $color-primary-very-dark-magenta;
+		opacity: 0.6;
+		@media (max-width: 750px) {
+			text-align: center;
+			width: unset;
+		}
+	}
+}
