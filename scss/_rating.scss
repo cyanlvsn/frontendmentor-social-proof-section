@@ -1,0 +1,44 @@
+.rating {
+	&__card {
+		width: 44.5rem;
+		height: 5.5rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: row;
+
+		@media (max-width: 450px) {
+			width: unset;
+			height: 7.8rem;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		border-radius: 1rem;
+		color: $color-primary-very-dark-magenta;
+		background-color: $color-neutral-dark-grayish-magenta;
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+
+		&__stars {
+			@media (min-width: 451px) {
+				margin: 0 3rem;
+			}
+		}
+		&__text {
+			font-weight: $fw-bold;
+			opacity: 0.9;
+		}
+	}
+}
+
+@media (min-width: 750px) {
+	.rating2 {
+		margin-left: 5rem;
+	}
+
+	.rating3 {
+		margin-left: 10rem;
+	}
+}
