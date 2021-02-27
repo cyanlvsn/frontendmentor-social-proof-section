@@ -7,7 +7,7 @@
 		align-items: center;
 		flex-direction: row;
 
-		@media (max-width: 450px) {
+		@media (max-width: 1150px) {
 			width: unset;
 			height: 7.8rem;
 			justify-content: center;
@@ -22,7 +22,7 @@
 		}
 
 		&__stars {
-			@media (min-width: 451px) {
+			@media (min-width: 1150px) {
 				margin: 0 3rem;
 			}
 		}
@@ -33,7 +33,7 @@
 	}
 }
 
-@media (min-width: 750px) {
+@media (min-width: 1150px) {
 	.rating2 {
 		margin-left: 5rem;
 	}
